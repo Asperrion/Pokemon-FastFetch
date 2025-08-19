@@ -18,11 +18,6 @@
             "keyColor": "green"
         },
         {
-            "type": "bios",
-            "key": "   Bios",
-            "keyColor": "green"
-        },
-        {
             "type": "kernel",
             "key": "   Kernel",
             "keyColor": "green"
@@ -33,19 +28,9 @@
             "keyColor": "magenta"
         },
         {
-            "type": "display",
-            "key": "   Display",
-            "keyColor": "magenta"
-        },
-        {
             "type": "wm",
             "key": "   WM",
-	        "format": "{2}",
-            "keyColor": "green"
-        },
-        {
-            "type": "terminalfont",
-            "key": "   Font",
+	       "format": "{2}",
             "keyColor": "green"
         },
         {
@@ -53,14 +38,7 @@
             "key": "   Terminal",
             "format": "{1}",
             "keyColor": "green"
-        },
-        "break",
-        {
-            "type": "colors",
-            "paddingLeft": 3,
-            "symbol": "circle"
-        },
-        "break",
+        }, 
         {
             "type": "cpu",
             "format": "{1}",
@@ -83,28 +61,6 @@
             "format": "{1} v{4}",
             "key": "   Shell",
             "keyColor": "blue"
-        },
-        {
-            "type": "disk",
-            "key": "   Disk",
-            "keyColor": "magenta"
-        },
-        {
-            "type": "command",
-            "key": "   OS Age ",
-            "keyColor": "green",
-            "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
-        },
-        {
-            "type": "uptime",
-            "key": "   Uptime ",
-            "keyColor": "green"
-        },
-        {
-            "type": "host",
-            "key": "   Machine",
-            "format": "{name}{?vendor} ({vendor}){?}",
-            "keyColor": "green"
         },
         {
             "type": "custom",
